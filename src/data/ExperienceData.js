@@ -1,7 +1,7 @@
 export const data = [
     {
         "key": 0,
-        "name": "Front-End Developmer",
+        "name": "Front-End Developer",
         "description": "Self-Taught/Practice",
         "time": "September 2021 - Present",
         "details": "For the past year I have learned HTML, CSS, Javascript, and various front-end and full-stack engineering frameworks through self-studying and online courses. I have completed various projects, including this React website and a full-stack web-development project for uploading family recipes, and I have started doing freelance work."
