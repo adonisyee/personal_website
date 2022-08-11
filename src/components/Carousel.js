@@ -4,7 +4,7 @@ import {BsFillCircleFill} from "react-icons/bs"
 import {useSwipeable} from "react-swipeable"
 
 export default function Carousel(props) {
-    const [currentPhoto, setCurrentPhoto] = useState(0)
+    const [currentPhoto, setCurrentPhoto] = useState(Math.floor(props.data.length/2))
     const length = props.data.length
 
     const nextImg = () => {

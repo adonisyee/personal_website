@@ -190,25 +190,24 @@ body {
     justify-content: center;
     color: #50555c;
     overflow: hidden;
-    width: 100%;
+    border-radius: 10px;
 }
 
 .carousel-slides {
     white-space: nowrap;
     transition: ease 1s;
-    width: 100%;
+    margin: 1em;
 }
 
 .carousel-slide {
     display: inline-block;
-    border-radius: 4px;
-    overflow: hidden;
 }
 
 .carousel-img {
-    width: 100%;
+    max-width: 100%;
     display: inline-block;
     border-radius: 10px;
+    box-shadow: 0 0 10px;
 }
 
 .carousel-img:hover {
@@ -223,7 +222,7 @@ body {
     position: absolute;
     top: 50%;
     font-size: 1.5em;
-    left: 0%;
+    left: 5%;
     cursor: pointer;
     color: white;
     z-index: 1;
@@ -232,7 +231,7 @@ body {
 .carousel-right_arrow {
     position: absolute;
     top: 50%;
-    right: 0%;
+    right: 5%;
     font-size: 1.5em;
     cursor: pointer;
     z-index: 1;
