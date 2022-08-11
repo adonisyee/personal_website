@@ -22,7 +22,7 @@ export default function Carousel(props) {
     const handlers = useSwipeable({
         onSwipedLeft: () => nextImg(),
         onSwipedRight: () => prevImg(),
-        trackMouse: true,
+        trackMouse: true
     })
 
     if (!props.data || length <= 0) {
@@ -31,7 +31,7 @@ export default function Carousel(props) {
 
     const slides = props.data.map((img, idx) => {
         return (
-            <div className='carousel-slide' {...handlers} key={img.key}>
+            <div className='carousel-slide'  key={img.key}>
                 <img className="carousel-img" src={img.image} alt={img.description} draggable="false"/>
             </div>
         )
@@ -42,7 +42,7 @@ export default function Carousel(props) {
             <div className="carousel">
                 {props.windowWidth && props.windowWidth > 500 && <TiChevronLeftOutline className="carousel-left_arrow" onClick={prevImg}/>}
                 {props.windowWidth && props.windowWidth > 500 && <TiChevronRightOutline className="carousel-right_arrow" onClick={nextImg}/>}
-                <div className="carousel-slides" style={{transform: `translateX(${-currentPhoto*100}%)`}}>
+                <div className="carousel-slides" {...handlers} style={{transform: `translateX(${-currentPhoto*100}%)`}}>
                     {slides}
                 </div>
             </div>

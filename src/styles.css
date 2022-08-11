@@ -11,7 +11,7 @@ body {
 
 /*landing*/
 .landing-container {
-    background: no-repeat center top fixed url("../public/img/Me.JPG");
+    background: no-repeat center url("../public/img/Me.JPG");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,6 +201,8 @@ body {
 
 .carousel-slide {
     display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .carousel-img {
@@ -405,6 +407,8 @@ body {
     position: absolute;
     padding: 10%;
     text-align: left;
+    width: 100%;
+    height: 100%;
 }
 
 .projects-card_title {
@@ -591,5 +595,10 @@ body {
     /* landing */
     .landing-container {
         height: 70vh;
+    }
+
+    /* projects */
+    .projects-info {
+        font-size: 2vw;
     }
 }
