@@ -351,7 +351,7 @@ body {
 
 /* projects */
 .projects-container {
-    padding: 2em 0;
+    padding: 2em 0 0 0;
     text-align: center;
     color: #50555c;
     background-color: #f6f1dd;
@@ -377,6 +377,7 @@ body {
     width: 48%;
     position: relative;
     overflow: hidden;
+    margin-bottom: 3em;
 }
 
 .projects-img {
