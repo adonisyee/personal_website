@@ -302,7 +302,7 @@ body {
     margin: 0;
     text-align: center;
     color: #50555c;
-    padding: 1em 20% 1em 20%;
+    padding: 1em 20%;
     padding-bottom: 3em;
 }
 .skills-title {
@@ -501,6 +501,8 @@ body {
         font-size: 2em;
         padding: 0 0.5em;
         z-index: 10;
+        border: 1px solid #8d9299;
+        margin: 2px;
     }
 
     .navbar-menu {
@@ -556,7 +558,6 @@ body {
     /* experience */
     .experience-block {
         display: block;
-        padding: 2em 15%;
     }
 
     .experience-section_left {
@@ -596,9 +597,45 @@ body {
     .landing-container {
         height: 70vh;
     }
+    /* about */
+    .about-title_description {
+        width: 90%;
+    }
+
+    .about-section.left, .about-section.right {
+        padding: 0 5%;
+    }
 
     /* projects */
     .projects-info {
         font-size: 2vw;
+    }
+
+    /* experience */
+    .experience-title {
+        width: 90%;
+        padding-bottom: 0.5em;
+    }
+
+    .experience-block {
+        padding: 2em 5%;
+    }
+
+    /* skills */
+    .skills-container {
+        padding: 1em 5%;
+    }
+
+    .skills-item {
+        width: 90%;
+    }
+
+    /* projects */
+    .projects-title {
+        width: 90%;
+    }
+
+    .projects-cards {
+        margin: 0 5%;
     }
 }
