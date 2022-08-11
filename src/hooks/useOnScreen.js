@@ -1,12 +1,14 @@
 import {useState, useEffect} from 'react'
+import useWindowWidth from "./useWindowWidth"
 
 export default function useOnScreen(ref) {
 	const [isOnScreen, setOnScreen] = useState(false)
+	const windowWidth = useWindowWidth()
 
 	const observer = new IntersectionObserver(
 		([entry]) => setOnScreen(entry.isIntersecting),
 		{
-			threshold: [0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8] 
+			 threshold: windowWidth > 600 ? [0.6] : [0.3]
 		}
 	)
 
