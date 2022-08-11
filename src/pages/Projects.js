@@ -31,6 +31,13 @@ export default function Projects() {
             <div className="projects-cards">
                 {projects}
             </div>
+            <p style={{fontStyle: "italic"}}>This website was custom built with React.js.</p>
+            <a href="https://github.com/adonisyee/personal_website" className="projects-website_link" target="_blank" rel="noopener noreferrer">
+                <button className="projects-github_button">
+                    See website on Github
+                </button>
+            </a>
+
         </div>
     )
 
