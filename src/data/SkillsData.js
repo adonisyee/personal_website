@@ -21,13 +21,13 @@ export const data = [
     },
     {
         "key": 4,
-        "name": "Bootstrap",
-        "stars": 4
+        "name": "React",
+        "stars": 5
     },
     {
         "key": 5,
         "name": "SQL",
-        "stars": 5
+        "stars": 4
     },
     {
         "key": 6,
@@ -38,10 +38,5 @@ export const data = [
         "key": 7,
         "name": "C++",
         "stars": 2
-    },
-    {
-        "key": 8,
-        "name": "React",
-        "stars": 5
     }
 ]

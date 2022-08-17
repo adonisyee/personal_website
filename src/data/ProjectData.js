@@ -6,7 +6,7 @@ export const data = [
         "src": "https://grandmas-recipes-app.herokuapp.com/",
         "title": "Grandma's Recipes",
         "description": "A website I created to save family recipes.",
-        "tags": "Javascript, EJS, CSS, Bootstrap, MongoDB, Node, Express, front-end, back-end"
+        "tags": "Javascript, EJS, CSS, Bootstrap, MongoDB, Node, Express, RESTful APIs, front-end, back-end"
     },
     {
         "key": 1,

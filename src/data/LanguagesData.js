@@ -7,11 +7,11 @@ export const data = [
     {
         "key": 1,
         "name": "Russian",
-        "stars": 3
+        "stars": 2
     },
     {
         "key": 2,
         "name": "Spanish",
-        "stars": 3
+        "stars": 2
     }
 ]
