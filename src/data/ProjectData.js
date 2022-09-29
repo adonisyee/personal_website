@@ -52,5 +52,23 @@ export const data = [
         "title": "Virtual Business Card",
         "description": "A virtual business card I made for myself.",
         "tags": "Javascript, React"
+    },
+    {
+        "key": 6,
+        "image": "../img/todolist.png",
+        "alt": "To Do List Preview",
+        "src": "https://adonisyeetodolist.netlify.app/",
+        "title": "To Do List",
+        "description": "A simple to do list that saves list items to local strorage.",
+        "tags": "Javascript, localStorage"
+    },
+    {
+        "key": 7,
+        "image": "../img/markdownnotes.png",
+        "alt": "Markdown Notes App Preview",
+        "src": "https://adonisyeemarkdownnotes.netlify.app/",
+        "title": "Markdown Notes",
+        "description": "A markdown notes app.",
+        "tags": "Javascript, localStorage"
     }
 ]
