@@ -8,7 +8,7 @@ export default function useOnScreen(ref) {
 	const observer = new IntersectionObserver(
 		([entry]) => setOnScreen(entry.isIntersecting),
 		{
-			 threshold: windowWidth > 600 ? [0.6] : [0.3]
+			 threshold: windowWidth > 600 ? [0.5] : [0.3]
 		}
 	)
 
