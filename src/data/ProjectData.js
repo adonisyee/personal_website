@@ -48,7 +48,7 @@ export const data = [
         "key": 5,
         "image": "../img/business-card.png",
         "alt": "Business Card Preview",
-        "src": "https://adonisyee-business-card.herokuapp.com/",
+        "src": "https://adonisyee-business-card.netlify.app/",
         "title": "Virtual Business Card",
         "description": "A virtual business card I made for myself.",
         "tags": "Javascript, React"
