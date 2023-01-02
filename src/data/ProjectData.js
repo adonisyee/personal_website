@@ -12,7 +12,7 @@ export const data = [
         "key": 1,
         "image": "../img/travel-journal.png",
         "alt": "Travel Journal Preview",
-        "src": "https://adonisyee-travel-journal.herokuapp.com/",
+        "src": "https://adonisyee-travel-journal.netlify.app/",
         "title": "Travel Journal",
         "description": "A travel journal I made to document where I've been.",
         "tags": "Javascript, React"
@@ -21,7 +21,7 @@ export const data = [
         "key": 2,
         "image": "../img/Tenzies.png",
         "alt": "Tenzies Game Preview",
-        "src": "https://tenzies-game-project.herokuapp.com/",
+        "src": "https://adonisyee-tenzies.netlify.app/",
         "title": "Tenzies",
         "description": "A strategic dice game!",
         "tags": "Javascript, React"
@@ -30,7 +30,7 @@ export const data = [
         "key": 3,
         "image": "../img/Quizzical.png",
         "alt": "Quizzical App Preview",
-        "src": "https://quizzical-project-react.herokuapp.com/",
+        "src": "https://adonisyee-quizzical.netlify.app/",
         "title": "Quizzical Project",
         "description": "A trivia quiz game!",
         "tags": "Javascript, React, APIs"
@@ -39,7 +39,7 @@ export const data = [
         "key": 4,
         "image": "../img/speed-typing-game.png",
         "alt": "Speed Typing Game Preview",
-        "src": "https://speed-typing-game-project.herokuapp.com/",
+        "src": "https://adonisyee-speed-typing.netlify.app/",
         "title": "Speed Typing Game",
         "description": "A speed-typing game!",
         "tags": "Javascript, React"
