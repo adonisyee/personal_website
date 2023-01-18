@@ -7,6 +7,7 @@
 body {
     min-width: 375px;
     position: relative;
+    font-size: 16px;
 }
 
 /*landing*/
@@ -21,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .landing-title {
@@ -30,30 +31,38 @@ body {
     padding-bottom: 0.5em;
     margin: 0 auto;
     margin-bottom: 0.5em;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .landing-description {
-    font-size:1.5em;
+    font-size: 1.5rem;
 }
 
 /* navbar */
 .navbar {
     position: fixed;
+    top: 0;
     bottom: 89.5%;
-    right: 0.5%;
-    border-radius: 4px;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #50555c;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 0;
     z-index: 2;
 }
 
 .navbar-icon {
-    font-size: 2em;
-    padding: 0.2em 0.5em;
+    font-size: 2rem;
     background: #50555c;
     color: white;
     border-radius: 4px;
-    border: none;
+    padding: 0 0.5em;
+    z-index: 10;
+    border: 1px solid #8d9299;
+    margin: 2px;
 }
 
 .navbar-icon:hover {
@@ -65,27 +74,29 @@ body {
 }
 
 .navbar-menu {
-    width: 120px;
     color: white;
     background-color: #50555c;
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 10%;
-    right: 0;
     transition: 1s;
-    -webkit-transform: translate(100%, 0);
-    -ms-transform: translate(100%, 0);
-    transform: translate(100%, 0);
     visibility: hidden;
+    width: 100%;
+    top: 0;
+    right: 0;
+    margin: 0;
+    border-radius: 0;
+    -webkit-transform: translate(0, -120%);
+    -ms-transform: translate(0, -120%);
+    transform: translate(0, -120%);
 }
 
 .navbar-menu.active {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
-    right: 0.5%;
     visibility: visible;
+    right: 0;
 }
 
 .navbar-items {
@@ -101,7 +112,7 @@ body {
 .navbar-items span {
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     display: block;
     width: 100%;
     transition: 0.2s ease;
@@ -109,18 +120,18 @@ body {
 }
 
 .navbar-item {
-    padding: 1.5em 0;
     color: white;
     display: inline-block;
     width: 100%;
-    height: 100%;
     text-align: center;
-
+    padding: 1em;
+    height: 60px;
 }
 
 .navbar-item:hover {
     color: rgb(226, 225, 232);
     background-color: #4a4e54;
+    cursor: pointer;
 }
 
 .navbar-link.selected {
@@ -147,27 +158,23 @@ body {
 
 .about-title_description {
     border-bottom: 1px solid #727878;
-    width: 80%;
     padding-bottom: 1.5em;
     margin: auto;
+    width: 90%;
 }
 
 .about-info {
-    display: flex;
+    display: block;
 }
 
 .about-section {
-    margin: 6em 0;
-    width: 40%;
-    text-align: left;
+    margin: 4em 0;
+    width: 100%;
+    text-align: center;
 }
 
-.about-section.left {
-    padding: 0 2em 0 10%;
-}
-
-.about-section.right {
-    padding: 0 10% 0 2em;
+.about-section.left, .about-section.right {
+    padding: 0 5%;
 }
 
 .about-subtitle {
@@ -177,8 +184,8 @@ body {
 }
 
 .about-carousel {
-    width: 20%;
-    margin: 1.5em 0;
+    width: 60%;
+    margin: 1.5em auto;
     align-self: center;
 }
 
@@ -221,7 +228,7 @@ body {
 .carousel-left_arrow {
     position: absolute;
     top: 50%;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     left: 5%;
     cursor: pointer;
     color: white;
@@ -232,7 +239,7 @@ body {
     position: absolute;
     top: 50%;
     right: 5%;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     cursor: pointer;
     z-index: 1;
     color: white;
@@ -269,24 +276,24 @@ body {
     margin: auto;
     color: #29b5c8;
     border-bottom: 1px solid #727878;
-    width: 70%;
     padding-bottom: 0.5em;
+    width: 90%;
 }
 
 .experience-block {
-    display: flex;
-    padding: 2em 15%;
-    align-items: flex-start;
+    display: block;
+    padding: 2em 5%;
 }
 
 .experience-section_left {
-    width: 40%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
 }
 
 .experience-section_right {
-    width: 60%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
 }
 
 .experience-time {
@@ -302,7 +309,7 @@ body {
     margin: 0;
     text-align: center;
     color: #50555c;
-    padding: 1em 20%;
+    padding: 1em 5%;
     padding-bottom: 3em;
 }
 .skills-title {
@@ -317,14 +324,14 @@ body {
 .skills-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .skills-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 48%;
+    width: 90%;
 }
 
 .skills-item:hover {
@@ -362,22 +369,22 @@ body {
     margin-bottom: 1em;
     color: #29b5c8;
     border-bottom: 1px solid #727878;
-    width: 70%;
     padding-bottom: 0.5em;
+    width: 90%;
 }
 
 .projects-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 15%;
+    margin: 0 5%;
 }
 
 .projects-card {
-    width: 48%;
     position: relative;
     overflow: hidden;
     margin-bottom: 3em;
+    width: 100%;
 }
 
 .projects-img {
@@ -409,6 +416,7 @@ body {
     text-align: left;
     width: 100%;
     height: 100%;
+    font-size: 2vw;
 }
 
 .projects-card_title {
@@ -439,7 +447,7 @@ body {
     padding: 0.8em;
     border-radius: 4px;
     border: 1px solid #50555c;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 
 .projects-github_button:hover {
@@ -474,6 +482,8 @@ body {
 .contact-item {
     display: flex;
     margin-bottom: 5%;
+    width: 100%;
+    justify-content: center;
 }
 
 .contact-item a {
@@ -498,159 +508,149 @@ body {
 }
 
 
-/* smaller screens */
-@media (max-width: 1300px) {
-    /* navbar */
-    .navbar {
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 60px;
-        background-color: #50555c;
-        display: flex;
-        justify-content: flex-end;
-        border-radius: 0;
-    }
-
-    .navbar-icon {
-        font-size: 2em;
-        padding: 0 0.5em;
-        z-index: 10;
-        border: 1px solid #8d9299;
-        margin: 2px;
-    }
-
-    .navbar-menu {
-        width: 100%;
-        margin: 0;
-        top: 0;
-        right: 0;
-        border-radius: 0;
-        -webkit-transform: translate(0, -120%);
-        -ms-transform: translate(0, -120%);
-        transform: translate(0, -120%);
-    }
-
-    .navbar-menu.active {
-        right: 0;
-        -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
-        transform: translate(0, 0);
-    }
-
-    .navbar-items {
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .navbar-item {
-        padding: 1em;
-        height: 60px;
+/* larger screens */
+@media (min-width: 600px) {
+    /* landing */
+    .landing-container {
+        height: 100vh;
     }
 
     /* about */
-    .about-info {
-        display: block;
-    }
-
-    .about-section {
-        margin: 4em 0;
-        width: 100%;
-        text-align: center;
+    .about-title_description {
+        width: 80%;
     }
 
     .about-section.left, .about-section.right {
         padding: 0 15%;
     }
 
-    .about-carousel {
-        width: 60%;
-        margin: 1.5em auto;
-        align-self: center;
-    }
-
     /* experience */
     .experience-block {
-        display: block;
-    }
-
-    .experience-section_left {
-        width: 100%;
-        text-align: center;
-    }
-
-    .experience-section_right {
-        width: 100%;
-        text-align: center;
-        margin-top: 2em;
+        padding: 2em 15%;
     }
 
     /* skills */
-    .skills-items {
-        justify-content: center;
+    .skills-container {
+        padding: 1em 20%;
+        padding-bottom: 3em;
     }
+
     .skills-item {
         width: 80%;
     }
 
     /* projects */
-    .projects-card {
-        width: 100%;
-        margin-bottom: 3em;
+    .projects-title {
+        width: 70%;
     }
 
-    /* contact */
-    .contact-item {
-        width: 100%;
-        justify-content: center;
+    .projects-cards {
+        margin: 0 15%;
+    }
+
+    .projects-info {
+        font-size: inherit;
     }
 }
 
-@media (max-width: 600px) {
-    /* landing */
-    .landing-container {
-        height: 70vh;
+@media (min-width: 1300px) {
+    /* navbar */
+    .navbar {
+        top: inherit;
+        right: 0.5%;
+        border-radius: 4px;
+        width: inherit;
     }
+
+    .navbar-icon {
+        border: none;
+        margin: 0;
+        padding: 0.2em 0.5em;
+    }
+
+    .navbar-menu {
+        width: 120px;
+        top: 10%;
+        right: 0;
+        margin: initial;
+        border-radius: initial;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+
+    .navbar-menu.active {
+        right: 0.5%;
+    }
+
+    .navbar-item {
+        padding: 1.5em 0;
+        height: 100%;
+    }
+
     /* about */
-    .about-title_description {
-        width: 90%;
+    .about-info {
+        display: flex;
     }
 
-    .about-section.left, .about-section.right {
-        padding: 0 5%;
+    .about-section {
+        margin: 6em 0;
+        width: 40%;
+        text-align: left;
     }
 
-    /* projects */
-    .projects-info {
-        font-size: 2vw;
+    .about-section.left {
+        padding: 0 2em 0 10%;
+    }
+
+    .about-section.right {
+        padding: 0 10% 0 2em;
+    }
+
+    .about-carousel {
+        width: 20%;
+        margin: 1.5em 0;
     }
 
     /* experience */
     .experience-title {
-        width: 90%;
+        width: 70%;
         padding-bottom: 0.5em;
     }
 
     .experience-block {
-        padding: 2em 5%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .experience-section_left {
+        width: 40%;
+        text-align: left;
+    }
+
+    .experience-section_right {
+        width: 60%;
+        text-align: left;
+        margin-top: 0;
     }
 
     /* skills */
-    .skills-container {
-        padding: 1em 5%;
+    .skills-items {
+        justify-content: space-between;
     }
 
     .skills-item {
-        width: 90%;
+        width: 48%;
     }
 
     /* projects */
-    .projects-title {
-        width: 90%;
+    .projects-card {
+        width: 48%;
     }
 
-    .projects-cards {
-        margin: 0 5%;
+    /* contact */
+    .contact-item {
+        justify-content: flex-start;
+        width: inherit;
     }
 }
