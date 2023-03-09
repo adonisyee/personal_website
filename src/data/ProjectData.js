@@ -70,5 +70,14 @@ export const data = [
         "title": "Markdown Notes",
         "description": "A markdown notes app.",
         "tags": "Javascript, localStorage"
+    },
+    {
+        "key": 8,
+        "image": "../img/bbcnewsclone.png",
+        "alt": "BBC News Clone App Preview",
+        "src": "https://adonisyee-bbcnews-clone.netlify.app/",
+        "title": "BBC News Clone",
+        "description": "A BBC News Clone app made to practice CSS Grid.",
+        "tags": "CSS, CSS Grid"
     }
 ]
