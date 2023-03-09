@@ -6,7 +6,7 @@ export const data = [
         "src": "https://grandmas-recipes.onrender.com/",
         "title": "Grandma's Recipes",
         "description": "A website I created to save family recipes.",
-        "tags": "Javascript, EJS, CSS, Bootstrap, MongoDB, Node, Express, RESTful APIs, front-end, back-end"
+        "tags": "JavaScript, EJS, CSS, Bootstrap, MongoDB, Node, Express, RESTful APIs, front-end, back-end"
     },
     {
         "key": 1,
@@ -15,7 +15,7 @@ export const data = [
         "src": "https://adonisyee-travel-journal.netlify.app/",
         "title": "Travel Journal",
         "description": "A travel journal I made to document where I've been.",
-        "tags": "Javascript, React"
+        "tags": "JavaScript, React"
     },
     {
         "key": 2,
@@ -24,7 +24,7 @@ export const data = [
         "src": "https://adonisyee-tenzies.netlify.app/",
         "title": "Tenzies",
         "description": "A strategic dice game!",
-        "tags": "Javascript, React"
+        "tags": "JavaScript, React"
     },
     {
         "key": 3,
@@ -33,7 +33,7 @@ export const data = [
         "src": "https://adonisyee-quizzical.netlify.app/",
         "title": "Quizzical Project",
         "description": "A trivia quiz game!",
-        "tags": "Javascript, React, APIs"
+        "tags": "JavaScript, React, APIs"
     },
     {
         "key": 4,
@@ -42,7 +42,7 @@ export const data = [
         "src": "https://adonisyee-speed-typing.netlify.app/",
         "title": "Speed Typing Game",
         "description": "A speed-typing game!",
-        "tags": "Javascript, React"
+        "tags": "JavaScript, React"
     },
     {
         "key": 5,
@@ -51,7 +51,7 @@ export const data = [
         "src": "https://adonisyee-business-card.netlify.app/",
         "title": "Virtual Business Card",
         "description": "A virtual business card I made for myself.",
-        "tags": "Javascript, React"
+        "tags": "JavaScript, React"
     },
     {
         "key": 6,
@@ -60,7 +60,7 @@ export const data = [
         "src": "https://adonisyeetodolist.netlify.app/",
         "title": "To Do List",
         "description": "A simple to do list that saves list items to local strorage.",
-        "tags": "Javascript, localStorage"
+        "tags": "JavaScript, localStorage"
     },
     {
         "key": 7,
@@ -69,7 +69,7 @@ export const data = [
         "src": "https://adonisyeemarkdownnotes.netlify.app/",
         "title": "Markdown Notes",
         "description": "A markdown notes app.",
-        "tags": "Javascript, localStorage"
+        "tags": "JavaScript, localStorage"
     },
     {
         "key": 8,
