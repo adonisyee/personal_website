@@ -11,14 +11,14 @@ export const data = [
         "name": "Data Scientist",
         "description": "NexGen Power Systems",
         "time": "November 2019 - Present",
-        "details": "Upgraded efficiency of wafer data analysis by automating data processing to format data and generate calculations, analyses, reports, and data visualizations; saved engineers an average of 40 hours/week. Cross-functionally partnered with engineers to assess pain-points and optimize data-processing."
+        "details": "As the lead data scientist at NexGen, I implemented and oversaw all automated data processes, including data extraction, replication, formatting, analyses, and error-monitoring. I optimized wafer data analysis by writing python scripts to format data and generate calculations, analyses, reports, and data visualizations that helped increase yields from below 30% to over 88%. Cross-functionally partnering with engineers to assess pain-points, I helped save an average of 40 hrs/week in processing time per testing lot."
     },
     {
         "key": 2,
         "name": "COO, CIO and Co-Founder",
         "description": "Mozeu Socks",
         "time": "September 2015 - December 2020",
-        "details": "Worked with a team to take a company from concept to launch, growth, and stability. Managed product design, manufacture, and website design, tools, and maintenance. Oversaw communication with customers, media content, and business communications. Coordinated with non-profit organizations, create cause-marketing partnerships, and organized monetary and product donations."
+        "details": "As a co-founder of Mozeu Socks, I worked with my team to expand our company from concept to launch, growth, and stability. I managed product design, manufacture, website design, tools, and maintenance, and I oversaw communication with customers, media content, and business communications. I also coordinated with non-profit organizations to create cause-marketing partnerships and organize monetary and product donations."
     },
     {
         "key": 3,

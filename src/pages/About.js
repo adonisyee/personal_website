@@ -17,9 +17,9 @@ export default function About() {
                 <div className='about-section left'>
                     <h2 className='about-subtitle'>My Work</h2>
                     <p className='about-subtitle_description'>
-                    I am a programmer who has spent the last 4 years as a Data Scientist, working primarily
-                    in Python, but over that time I found a passion for front-end web development and have decided to venture
-                    into it full-time after working on many projects for fun and sharpening my front-end skills.
+                    I am a programmer and have spent the last 4 years as a Data Scientist, working primarily
+                    in Python. In that time, I've developed a love for front-end web development after taking some courses in my free time; this love has driven 
+                    me to complete numerous projects (such as this website here) and pursue a career as a front-end developer.
                     </p>
                 </div>
                 <Carousel class="about-carousel" data={data} windowWidth={windowWidth}/>
