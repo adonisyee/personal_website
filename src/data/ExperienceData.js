@@ -17,7 +17,7 @@ export const data = [
         "key": 2,
         "name": "COO, CIO and Co-Founder",
         "description": "Mozeu Socks",
-        "time": "September 2015 - December 2020",
+        "time": "September 2015 - March 2021",
         "details": "As a co-founder of Mozeu Socks, I worked with my team to expand our company from concept to launch, growth, and stability. I managed product design, manufacture, website design, tools, and maintenance, and I oversaw communication with customers, media content, and business communications. I also coordinated with non-profit organizations to create cause-marketing partnerships and organize monetary and product donations."
     },
     {
